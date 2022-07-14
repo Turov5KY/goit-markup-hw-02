@@ -11,6 +11,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-white-color);
     margin: 0;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .link,
@@ -96,6 +98,7 @@ body {
     line-height: 1.6;
     text-align: center;
     margin: 0;
+    text-transform: uppercase;
 
 }
 
@@ -112,6 +115,7 @@ body {
     border: none;
     cursor: pointer;
     justify-content: center;
+    letter-spacing: 0.06em;
 
 }
 
@@ -131,16 +135,13 @@ body {
 }
 
 .feature-title {
-    letter-spacing: 0.03em;
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.2;
     color: var(--title-text-color);
+    text-transform: uppercase;
 }
 
 .feature-text {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.8;
 }
 
@@ -162,7 +163,6 @@ body {
 }
 
 .team-title {
-    letter-spacing: 0.03em;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.4;
@@ -172,15 +172,12 @@ body {
 
 .team-people {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.2;
     color: var(--title-text-color);
 
 }
 
 .team-text {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.2;
 
 }
@@ -229,7 +226,6 @@ body {
     display: inline;
     margin-left: 4px;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
@@ -242,6 +238,7 @@ body {
 }
 
 .project h2 {
+    letter-spacing: 0.06em;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.8;
@@ -249,8 +246,6 @@ body {
 }
 
 .project p {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.8;
 }
 
